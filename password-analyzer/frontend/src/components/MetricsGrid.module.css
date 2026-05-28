@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.box {
+  background: #0d130d;
+  border: 1px solid #1a3a1a;
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+
+.title {
+  font-size: 9px;
+  color: #3a7a3a;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 16px;
+  color: #00ff41;
+  transition: color 0.3s;
+}
+
+.value.danger { color: #ff4444; }
+.value.warning { color: #ffaa00; }
+.value.good { color: #00ff41; }

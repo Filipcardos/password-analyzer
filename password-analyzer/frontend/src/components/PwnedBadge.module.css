@@ -1,0 +1,26 @@
+.badge {
+  font-size: 11px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.danger {
+  color: #ff4444;
+  border-color: #4a1111;
+  background: #1a0808;
+}
+
+.safe {
+  color: #00ff41;
+  border-color: #1a4a1a;
+  background: #081208;
+}
+
+.unknown {
+  color: #ffaa00;
+  border-color: #4a3300;
+  background: #1a1200;
+}

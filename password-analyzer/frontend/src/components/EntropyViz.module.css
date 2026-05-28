@@ -1,0 +1,31 @@
+.wrapper {
+  margin-bottom: 16px;
+}
+
+.blocks {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.block {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #1a3a1a;
+  transition: background 0.2s;
+}
+
+.block.filled {
+  background: #00ff41;
+}
+
+.block.half {
+  background: #005a15;
+}
+
+.label {
+  font-size: 11px;
+  color: #3a7a3a;
+}

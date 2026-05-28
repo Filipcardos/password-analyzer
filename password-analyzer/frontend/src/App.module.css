@@ -1,0 +1,129 @@
+.terminal {
+  background: #0a0e0a;
+  border: 1px solid #1a3a1a;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.titleBar {
+  background: #111811;
+  border-bottom: 1px solid #1a3a1a;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+}
+
+.dot.red { background: #ff5f57; }
+.dot.yellow { background: #febc2e; }
+.dot.green { background: #28c840; }
+
+.titleText {
+  font-family: 'Orbitron', monospace;
+  font-size: 11px;
+  color: #3a7a3a;
+  margin-left: 8px;
+  letter-spacing: 2px;
+}
+
+.body {
+  padding: 20px;
+}
+
+.promptLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.promptSymbol {
+  color: #00ff41;
+  font-size: 14px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.passwordInput {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #1a5a1a;
+  color: #00ff41;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  flex: 1;
+  min-width: 0;
+  outline: none;
+  padding: 4px 0;
+  letter-spacing: 3px;
+  caret-color: #00ff41;
+}
+
+.passwordInput::placeholder {
+  color: #1a4a1a;
+  letter-spacing: 1px;
+}
+
+.toggleBtn {
+  background: transparent;
+  border: 1px solid #1a5a1a;
+  color: #3a7a3a;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  flex-shrink: 0;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+}
+
+.toggleBtn:hover {
+  color: #00ff41;
+  border-color: #00ff41;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #1a3a1a;
+  margin: 16px 0;
+}
+
+.sectionLabel {
+  font-size: 10px;
+  color: #3a7a3a;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 30px 20px;
+  color: #1a4a1a;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.blink {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
