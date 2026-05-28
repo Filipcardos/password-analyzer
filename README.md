@@ -4,6 +4,7 @@ Terminal-style password security analyzer with real-time strength scoring, entro
 
 <img width="739" height="214" alt="image" src="https://github.com/user-attachments/assets/3381c189-065f-4f25-b67c-6b89c22e274c" />
 
+🌐 Deploy: https://password-analyzer-kappa.vercel.app/
 
 ## ✨ Features
 
