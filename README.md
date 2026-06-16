@@ -151,3 +151,5 @@ A verificação de senhas no HaveIBeenPwned usa o modelo **k-anonymity**:
 ## 📄 Licença
 
 MIT — sinta-se livre para usar, modificar e distribuir.
+
+Feito por Filipe Cardoso.
